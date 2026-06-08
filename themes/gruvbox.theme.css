@@ -1,69 +1,71 @@
-/* Gruvbox — warm retro earthy tones */
-[data-theme="dark"] {
+/* @name: Gruvbox */
+/* @description: Warm retro earthy tones from the classic Gruvbox palette */
+
+:root[data-theme="dark"] {
     --background: #282828;
     --terminal: #1d2021;
-    --lighter-background: #3c3836;
-    --dialog-background: #32302f;
-    --gray-full: #ebdbb2;
-    --darker-gray: #504945;
-    --dark-gray: #665c54;
-    --gray: #928374;
-    --light-gray: #d5c4a1;
+    --lighter-background: #32302f;
+    --dialog-background: rgba(40, 40, 40, 0.6);
+    --gray-full: #3c3836;
+    --darker-gray: rgba(60, 56, 54, 0.7);
+    --dark-gray: rgba(235, 219, 178, 0.06);
+    --gray: rgba(235, 219, 178, 0.12);
+    --light-gray: #ebdbb2;
     --primary: #83a598;
-    --primary-opacity: rgba(131, 165, 152, 0.2);
-    --error: #cc241d;
-    --error-opacity: rgba(204, 36, 29, 0.2);
-    --success: #98971a;
-    --success-opacity: rgba(152, 151, 26, 0.2);
-    --warning: #d79921;
-    --warning-opacity: rgba(215, 153, 33, 0.2);
-    --white: #fbf1c7;
+    --primary-opacity: rgba(131, 165, 152, 0.25);
+    --error: #fb4934;
+    --error-opacity: rgba(251, 73, 52, 0.25);
+    --success: #b8bb26;
+    --success-opacity: rgba(184, 187, 38, 0.25);
+    --warning: #fabd2f;
+    --warning-opacity: rgba(250, 189, 47, 0.25);
+    --white: #ebdbb2;
     --subtext: #a89984;
     --text: #ebdbb2;
 }
 
-[data-theme="oled"] {
+:root[data-theme="oled"] {
     --background: #0e0e0e;
-    --terminal: #000000;
-    --lighter-background: #3c3836;
-    --dialog-background: #1d2021;
-    --gray-full: #ebdbb2;
-    --darker-gray: #504945;
-    --dark-gray: #665c54;
-    --gray: #928374;
-    --light-gray: #d5c4a1;
+    --terminal: #141414;
+    --lighter-background: #121212;
+    --dialog-background: rgba(14, 14, 14, 0.7);
+    --gray-full: #1d2021;
+    --darker-gray: rgba(29, 32, 33, 0.7);
+    --dark-gray: rgba(235, 219, 178, 0.05);
+    --gray: rgba(235, 219, 178, 0.1);
+    --light-gray: #ebdbb2;
     --primary: #83a598;
-    --primary-opacity: rgba(131, 165, 152, 0.2);
-    --error: #cc241d;
-    --error-opacity: rgba(204, 36, 29, 0.2);
-    --success: #98971a;
-    --success-opacity: rgba(152, 151, 26, 0.2);
-    --warning: #d79921;
-    --warning-opacity: rgba(215, 153, 33, 0.2);
-    --white: #fbf1c7;
+    --primary-opacity: rgba(131, 165, 152, 0.25);
+    --error: #fb4934;
+    --error-opacity: rgba(251, 73, 52, 0.25);
+    --success: #b8bb26;
+    --success-opacity: rgba(184, 187, 38, 0.25);
+    --warning: #fabd2f;
+    --warning-opacity: rgba(250, 189, 47, 0.25);
+    --white: #ebdbb2;
     --subtext: #a89984;
     --text: #ebdbb2;
 }
 
-[data-theme="light"] {
+:root[data-theme="light"] {
     --background: #fbf1c7;
     --terminal: #f2e5bc;
-    --lighter-background: #ebdbb2;
-    --dialog-background: #f9f5d7;
-    --gray-full: #3c3836;
-    --darker-gray: #a89984;
-    --dark-gray: #928374;
-    --gray: #7c6f64;
-    --light-gray: #504945;
+    --lighter-background: #f9f5d7;
+    --dialog-background: rgba(251, 241, 199, 0.5);
+    --gray-full: #ebdbb2;
+    --darker-gray: rgba(235, 219, 178, 0.85);
+    --dark-gray: rgba(60, 56, 54, 0.05);
+    --gray: rgba(60, 56, 54, 0.1);
+    --light-gray: #3c3836;
     --primary: #427b58;
-    --primary-opacity: rgba(66, 123, 88, 0.2);
+    --primary-opacity: rgba(66, 123, 88, 0.18);
     --error: #9d0006;
-    --error-opacity: rgba(157, 0, 6, 0.2);
+    --error-opacity: rgba(157, 0, 6, 0.15);
     --success: #79740e;
-    --success-opacity: rgba(121, 116, 14, 0.2);
+    --success-opacity: rgba(121, 116, 14, 0.15);
     --warning: #b57614;
-    --warning-opacity: rgba(181, 118, 20, 0.2);
-    --white: #282828;
+    --warning-opacity: rgba(181, 118, 20, 0.15);
+    --white: #3c3836;
     --subtext: #7c6f64;
     --text: #3c3836;
 }

@@ -1,68 +1,70 @@
-/* Tokyo Night — dark blue/purple inspired by Tokyo city lights */
-[data-theme="dark"] {
+/* @name: Tokyo Night */
+/* @description: Deep blue and purple hues inspired by Tokyo at night */
+
+:root[data-theme="dark"] {
     --background: #1a1b26;
     --terminal: #13141c;
-    --lighter-background: #292e42;
-    --dialog-background: #24283b;
-    --gray-full: #c0caf5;
-    --darker-gray: #414868;
-    --dark-gray: #3b4261;
-    --gray: #545c7e;
-    --light-gray: #a9b1d6;
+    --lighter-background: #1f2335;
+    --dialog-background: rgba(26, 27, 38, 0.6);
+    --gray-full: #292e42;
+    --darker-gray: rgba(41, 46, 66, 0.7);
+    --dark-gray: rgba(192, 202, 245, 0.06);
+    --gray: rgba(192, 202, 245, 0.12);
+    --light-gray: #c0caf5;
     --primary: #7aa2f7;
-    --primary-opacity: rgba(122, 162, 247, 0.2);
+    --primary-opacity: rgba(122, 162, 247, 0.25);
     --error: #f7768e;
-    --error-opacity: rgba(247, 118, 142, 0.2);
+    --error-opacity: rgba(247, 118, 142, 0.25);
     --success: #9ece6a;
-    --success-opacity: rgba(158, 206, 106, 0.2);
+    --success-opacity: rgba(158, 206, 106, 0.25);
     --warning: #e0af68;
-    --warning-opacity: rgba(224, 175, 104, 0.2);
+    --warning-opacity: rgba(224, 175, 104, 0.25);
     --white: #c0caf5;
     --subtext: #565f89;
     --text: #c0caf5;
 }
 
-[data-theme="oled"] {
+:root[data-theme="oled"] {
     --background: #06060d;
-    --terminal: #000000;
-    --lighter-background: #292e42;
-    --dialog-background: #13141c;
-    --gray-full: #c0caf5;
-    --darker-gray: #414868;
-    --dark-gray: #3b4261;
-    --gray: #545c7e;
-    --light-gray: #a9b1d6;
+    --terminal: #0a0b13;
+    --lighter-background: #0a0a14;
+    --dialog-background: rgba(6, 6, 13, 0.7);
+    --gray-full: #13141c;
+    --darker-gray: rgba(19, 20, 28, 0.7);
+    --dark-gray: rgba(192, 202, 245, 0.05);
+    --gray: rgba(192, 202, 245, 0.1);
+    --light-gray: #c0caf5;
     --primary: #7aa2f7;
-    --primary-opacity: rgba(122, 162, 247, 0.2);
+    --primary-opacity: rgba(122, 162, 247, 0.25);
     --error: #f7768e;
-    --error-opacity: rgba(247, 118, 142, 0.2);
+    --error-opacity: rgba(247, 118, 142, 0.25);
     --success: #9ece6a;
-    --success-opacity: rgba(158, 206, 106, 0.2);
+    --success-opacity: rgba(158, 206, 106, 0.25);
     --warning: #e0af68;
-    --warning-opacity: rgba(224, 175, 104, 0.2);
+    --warning-opacity: rgba(224, 175, 104, 0.25);
     --white: #c0caf5;
     --subtext: #565f89;
     --text: #c0caf5;
 }
 
-[data-theme="light"] {
+:root[data-theme="light"] {
     --background: #d5d6db;
     --terminal: #c8c9cf;
     --lighter-background: #cbccd1;
-    --dialog-background: #d0d1d6;
-    --gray-full: #343b58;
-    --darker-gray: #9699a3;
-    --dark-gray: #8c8fa1;
-    --gray: #6b6f89;
-    --light-gray: #4c5374;
+    --dialog-background: rgba(213, 214, 219, 0.5);
+    --gray-full: #b8b9bf;
+    --darker-gray: rgba(184, 185, 191, 0.85);
+    --dark-gray: rgba(52, 59, 88, 0.05);
+    --gray: rgba(52, 59, 88, 0.1);
+    --light-gray: #343b58;
     --primary: #2959aa;
-    --primary-opacity: rgba(41, 89, 170, 0.2);
+    --primary-opacity: rgba(41, 89, 170, 0.18);
     --error: #8c4351;
-    --error-opacity: rgba(140, 67, 81, 0.2);
+    --error-opacity: rgba(140, 67, 81, 0.15);
     --success: #485e30;
-    --success-opacity: rgba(72, 94, 48, 0.2);
+    --success-opacity: rgba(72, 94, 48, 0.15);
     --warning: #8f5e15;
-    --warning-opacity: rgba(143, 94, 21, 0.2);
+    --warning-opacity: rgba(143, 94, 21, 0.15);
     --white: #343b58;
     --subtext: #6b6f89;
     --text: #343b58;
