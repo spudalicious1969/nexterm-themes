@@ -1,0 +1,69 @@
+/* Tokyo Night — dark blue/purple inspired by Tokyo city lights */
+[data-theme="dark"] {
+    --background: #1a1b26;
+    --terminal: #13141c;
+    --lighter-background: #292e42;
+    --dialog-background: #24283b;
+    --gray-full: #c0caf5;
+    --darker-gray: #414868;
+    --dark-gray: #3b4261;
+    --gray: #545c7e;
+    --light-gray: #a9b1d6;
+    --primary: #7aa2f7;
+    --primary-opacity: rgba(122, 162, 247, 0.2);
+    --error: #f7768e;
+    --error-opacity: rgba(247, 118, 142, 0.2);
+    --success: #9ece6a;
+    --success-opacity: rgba(158, 206, 106, 0.2);
+    --warning: #e0af68;
+    --warning-opacity: rgba(224, 175, 104, 0.2);
+    --white: #c0caf5;
+    --subtext: #565f89;
+    --text: #c0caf5;
+}
+
+[data-theme="oled"] {
+    --background: #06060d;
+    --terminal: #000000;
+    --lighter-background: #292e42;
+    --dialog-background: #13141c;
+    --gray-full: #c0caf5;
+    --darker-gray: #414868;
+    --dark-gray: #3b4261;
+    --gray: #545c7e;
+    --light-gray: #a9b1d6;
+    --primary: #7aa2f7;
+    --primary-opacity: rgba(122, 162, 247, 0.2);
+    --error: #f7768e;
+    --error-opacity: rgba(247, 118, 142, 0.2);
+    --success: #9ece6a;
+    --success-opacity: rgba(158, 206, 106, 0.2);
+    --warning: #e0af68;
+    --warning-opacity: rgba(224, 175, 104, 0.2);
+    --white: #c0caf5;
+    --subtext: #565f89;
+    --text: #c0caf5;
+}
+
+[data-theme="light"] {
+    --background: #d5d6db;
+    --terminal: #c8c9cf;
+    --lighter-background: #cbccd1;
+    --dialog-background: #d0d1d6;
+    --gray-full: #343b58;
+    --darker-gray: #9699a3;
+    --dark-gray: #8c8fa1;
+    --gray: #6b6f89;
+    --light-gray: #4c5374;
+    --primary: #2959aa;
+    --primary-opacity: rgba(41, 89, 170, 0.2);
+    --error: #8c4351;
+    --error-opacity: rgba(140, 67, 81, 0.2);
+    --success: #485e30;
+    --success-opacity: rgba(72, 94, 48, 0.2);
+    --warning: #8f5e15;
+    --warning-opacity: rgba(143, 94, 21, 0.2);
+    --white: #343b58;
+    --subtext: #6b6f89;
+    --text: #343b58;
+}

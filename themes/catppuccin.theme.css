@@ -1,0 +1,69 @@
+/* Catppuccin Mocha — warm pastel dark theme */
+[data-theme="dark"] {
+    --background: #1e1e2e;
+    --terminal: #181825;
+    --lighter-background: #313244;
+    --dialog-background: #24273a;
+    --gray-full: #cdd6f4;
+    --darker-gray: #585b70;
+    --dark-gray: #45475a;
+    --gray: #6c7086;
+    --light-gray: #a6adc8;
+    --primary: #cba6f7;
+    --primary-opacity: rgba(203, 166, 247, 0.2);
+    --error: #f38ba8;
+    --error-opacity: rgba(243, 139, 168, 0.2);
+    --success: #a6e3a1;
+    --success-opacity: rgba(166, 227, 161, 0.2);
+    --warning: #fab387;
+    --warning-opacity: rgba(250, 179, 135, 0.2);
+    --white: #cdd6f4;
+    --subtext: #a6adc8;
+    --text: #cdd6f4;
+}
+
+[data-theme="oled"] {
+    --background: #0e0e16;
+    --terminal: #000000;
+    --lighter-background: #313244;
+    --dialog-background: #181825;
+    --gray-full: #cdd6f4;
+    --darker-gray: #585b70;
+    --dark-gray: #45475a;
+    --gray: #6c7086;
+    --light-gray: #a6adc8;
+    --primary: #cba6f7;
+    --primary-opacity: rgba(203, 166, 247, 0.2);
+    --error: #f38ba8;
+    --error-opacity: rgba(243, 139, 168, 0.2);
+    --success: #a6e3a1;
+    --success-opacity: rgba(166, 227, 161, 0.2);
+    --warning: #fab387;
+    --warning-opacity: rgba(250, 179, 135, 0.2);
+    --white: #cdd6f4;
+    --subtext: #a6adc8;
+    --text: #cdd6f4;
+}
+
+[data-theme="light"] {
+    --background: #eff1f5;
+    --terminal: #e6e9f0;
+    --lighter-background: #dce0e8;
+    --dialog-background: #e6e9f0;
+    --gray-full: #4c4f69;
+    --darker-gray: #9ca0b0;
+    --dark-gray: #8c8fa1;
+    --gray: #7c7f93;
+    --light-gray: #5c5f77;
+    --primary: #8839ef;
+    --primary-opacity: rgba(136, 57, 239, 0.2);
+    --error: #d20f39;
+    --error-opacity: rgba(210, 15, 57, 0.2);
+    --success: #40a02b;
+    --success-opacity: rgba(64, 160, 43, 0.2);
+    --warning: #df8e1d;
+    --warning-opacity: rgba(223, 142, 29, 0.2);
+    --white: #4c4f69;
+    --subtext: #6c6f85;
+    --text: #4c4f69;
+}

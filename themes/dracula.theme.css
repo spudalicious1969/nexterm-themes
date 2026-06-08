@@ -1,0 +1,69 @@
+/* Dracula — dark purple/pink theme */
+[data-theme="dark"] {
+    --background: #282a36;
+    --terminal: #1e1f29;
+    --lighter-background: #44475a;
+    --dialog-background: #383a59;
+    --gray-full: #f8f8f2;
+    --darker-gray: #44475a;
+    --dark-gray: #6272a4;
+    --gray: #6272a4;
+    --light-gray: #f8f8f2;
+    --primary: #bd93f9;
+    --primary-opacity: rgba(189, 147, 249, 0.2);
+    --error: #ff5555;
+    --error-opacity: rgba(255, 85, 85, 0.2);
+    --success: #50fa7b;
+    --success-opacity: rgba(80, 250, 123, 0.2);
+    --warning: #ffb86c;
+    --warning-opacity: rgba(255, 184, 108, 0.2);
+    --white: #f8f8f2;
+    --subtext: #6272a4;
+    --text: #f8f8f2;
+}
+
+[data-theme="oled"] {
+    --background: #0d0e14;
+    --terminal: #000000;
+    --lighter-background: #44475a;
+    --dialog-background: #1e1f29;
+    --gray-full: #f8f8f2;
+    --darker-gray: #44475a;
+    --dark-gray: #6272a4;
+    --gray: #6272a4;
+    --light-gray: #f8f8f2;
+    --primary: #bd93f9;
+    --primary-opacity: rgba(189, 147, 249, 0.2);
+    --error: #ff5555;
+    --error-opacity: rgba(255, 85, 85, 0.2);
+    --success: #50fa7b;
+    --success-opacity: rgba(80, 250, 123, 0.2);
+    --warning: #ffb86c;
+    --warning-opacity: rgba(255, 184, 108, 0.2);
+    --white: #f8f8f2;
+    --subtext: #6272a4;
+    --text: #f8f8f2;
+}
+
+[data-theme="light"] {
+    --background: #f8f8f2;
+    --terminal: #e8e8e0;
+    --lighter-background: #e0e0d8;
+    --dialog-background: #efefea;
+    --gray-full: #282a36;
+    --darker-gray: #6272a4;
+    --dark-gray: #44475a;
+    --gray: #6272a4;
+    --light-gray: #44475a;
+    --primary: #6d40bb;
+    --primary-opacity: rgba(109, 64, 187, 0.2);
+    --error: #cc3333;
+    --error-opacity: rgba(204, 51, 51, 0.2);
+    --success: #2db55d;
+    --success-opacity: rgba(45, 181, 93, 0.2);
+    --warning: #d4820a;
+    --warning-opacity: rgba(212, 130, 10, 0.2);
+    --white: #282a36;
+    --subtext: #6272a4;
+    --text: #282a36;
+}
